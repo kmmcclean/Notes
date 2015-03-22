@@ -52,7 +52,7 @@
     - execs in process
     - simulates worker nodes with threads
 
-** Distributed Mode**
+**Distributed Mode**
     - submit to master
     - workers go down, reassigns
 
@@ -65,8 +65,8 @@
 
 ### Stream Grouping
     - how to send tuples between two copmonents
-    - **Shuffe** - sends tuple to random task, evenly distributes
-    - **Field** 
+    **Shuffe** - sends tuple to random task, evenly distributes
+    **Field** 
         - same <field> always goes to same task
         - group by subset of fields
         
