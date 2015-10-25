@@ -1,11 +1,11 @@
 # Implication
 
-A | B | A ⇒ B
--------------
-T | T |  T
-T | F |  F
-F | T |  T
-F | F |  T
+| A | B | A ⇒ B |
+|---|---|-------|
+| T | T |  T    |
+| T | F |  F    |
+| F | T |  T    |
+| F | F |  T    |
 
 
 A is something that promises B
